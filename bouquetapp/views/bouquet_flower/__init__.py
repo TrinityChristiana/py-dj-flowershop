@@ -1,0 +1,1 @@
+from .bouquets_flower_details import details_bouquets_flower
