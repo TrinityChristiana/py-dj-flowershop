@@ -5,7 +5,7 @@ Created: 05-15-20 | Modified:
 
 - [Instructions to setup project for your machine](directions/boiler-setup.md)
 - [Requirements for this project](directions/requirements.md)
-- [File Structure Readme's](directions/file_structure)
+- [File Structure Readme's](directions/file_structure/main.md)
 
 ## Features
 
