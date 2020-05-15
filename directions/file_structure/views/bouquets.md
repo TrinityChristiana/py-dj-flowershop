@@ -11,7 +11,7 @@
 - Function: [details_bouquets(request, bouquet_id)]()
     - This view handels all request to the bouquets details page
     - url_ex: bouquet/1
-    - GET: 
+    - GET: Gets and grabs details of each flower
 
 ## Bouquets Form
 - Function: [add_bouquets(request)]()

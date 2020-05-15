@@ -1,5 +1,17 @@
 {% extends 'shared/base.html' %}
 
 {% block content %}
-details for {{ bouquet.id }}
+
+<h1>{{ bouquet.name }}</h1>
+
+<p><strong>Occasion</strong>: {{ bouquet.occasion }}</p>
+
+<h2>Flowers</h2>
+<ul>
+    {% for bouquet_flower in bouquet_flowers %}
+        <li> <strong>{{bouquet_flower.flower.name}}</strong> Quantity: {{bouquet_flower.quantity}}
+         
+        </li>
+    {% endfor %}
+</ul>
 {% endblock content %}

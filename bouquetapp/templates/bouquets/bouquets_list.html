@@ -5,7 +5,7 @@
     <a href="{% url 'bouquetapp:bouquet_form' %}">Add Bouquet</a>
     <ul>
         {% for bouquet in bouquets %}
-        <li>{{bouquet.name}}</li>
+        <li><a href="{% url 'bouquetapp:bouquet' bouquet.id %}">{{bouquet.name}}</a></li>
         {% endfor %}
     </ul>
 {% endblock content %}

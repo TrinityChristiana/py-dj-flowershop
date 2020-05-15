@@ -15,8 +15,10 @@
     - => list of Bouquet classes
     
 ## Get single Bouquet 
-- Function: []()
-    - 
+- Function: [get_bouquet(bouquet_id)]()
+    - Grabs the bouquet in the database that matches the passes bouquet id
+    - Uses the Bouquet model to represent data
+    - => Single Bouquet classes
     
 ## Update Bouquet
 
