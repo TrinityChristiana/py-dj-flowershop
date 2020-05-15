@@ -3,10 +3,9 @@
 You have been tasked to build an app that will allow the employees of the flower shop to manage the different bouquets that the shop builds for it's customers.
 
 ## Project Setup
-
 * Clone down the repo and `cd` into it
     * `git clone --single-branch --branch tct-setup https://github.com/TrinityTerry/py-dj-flowershop.git`
-    
+
 * Change this from a git repo to a regular directory:
   * `rm -rf .git`
 
