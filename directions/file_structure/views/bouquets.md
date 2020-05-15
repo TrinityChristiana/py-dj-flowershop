@@ -8,7 +8,7 @@
     - POST: handles post method for add_bouquets. Redirects to bouquet list
     
 ## Bouquets Details
-- Function: [details_bouquets(request, bouquet_id)]((../../../bouquetapp/views/bouquets/bouquets_details.py#L4)
+- Function: [details_bouquets(request, bouquet_id)](../../../bouquetapp/views/bouquets/bouquets_details.py#L4)
     - This view handels all request to the bouquets details page
     - url_ex: bouquet/1
     - GET: Gets and grabs details of each flower
