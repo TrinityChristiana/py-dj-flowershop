@@ -2,13 +2,15 @@
 
 ## List Of Bouquets
     - Template: [bouquets_list.html]()
-    - Details: Template for List of Bouquets page
+    - Template for List of Bouquets page
+    - Has link to add bouquet
 
 ## Bouquets Details
     - Template: [bouquets_details.html]()
-    - Details: Template for Bouquets Details page
+    - Template for Bouquets Details page
 
 ## Bouquets Form
     - Template: [bouquets_form.html]()
-    - Details: Template for add and edit Bouquets form page
+    - Template for add and edit Bouquets form page
+    - Form takes in user text input for name and occasion
 
