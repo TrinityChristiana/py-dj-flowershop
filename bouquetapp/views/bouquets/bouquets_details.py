@@ -8,7 +8,9 @@ def details_bouquets(request, bouquet_id):
     if request.method == "GET":
         template = "bouquets/bouquets_details.html"
         bouquet = get_bouquet(bouquet_id)
+        bouquet_flowers = get_relations(bouquet_id)
         context = {
-            "bouquet": bouquet
+            "bouquet": bouquet,
+            "bouquet_flowers": bouquet_flowers
         }
         return render(request, template, context)
