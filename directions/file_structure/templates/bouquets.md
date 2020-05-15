@@ -4,6 +4,7 @@
     - Template: [bouquets_list.html]()
     - Template for List of Bouquets page
     - Has link to add bouquet
+    - Each Boquet has a link to their details page
     - Takes in list of Bouquet Models
 
 ## Bouquets Details
