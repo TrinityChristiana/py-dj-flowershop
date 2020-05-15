@@ -1,1 +1,1 @@
-from .bouquets import get_all_bouquets
+from .bouquets import get_all_bouquets, add_bouquet
