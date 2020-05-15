@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from ..data_manager import *
 
 def add_bouquets(request):
     """
@@ -18,5 +19,9 @@ def edit_bouquets(request, bouquet_id):
     """
     if request.method == "GET":
         template = "bouquets/bouquets_form.html"
-        context = {}
+        bouquet = get_bouquet(bouquet_id)
+        context = {
+            "bouquet": bouquet
+        }
+        
         return render(request, template, context)

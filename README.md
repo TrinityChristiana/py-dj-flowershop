@@ -17,8 +17,9 @@ Created: 05-15-20 | Modified:
 ### Viewing Bouquet Details
 1.Each bouquet on the lsit page has a link to view the details of the bouquet. When the user clicks on this link, they can view the name of the bouquet, the occasion, the names of the many flowers that make up that bouquet and the quantity of each flower needed for that bouquet.
 
+### Editing a Bouquet
+1. Using the edit button at the bottom of the bouquet details page. When the user clicks on the button, they are presented with a form that lets them edit only the occasion of the bouquet. 
+
+
 <!-- ### Deleting a Flower from a Bouquet
 1. Add a DELETE button next to each flower listed on the details page for a bouquet. When the user clicks this button, the flower should be removed from that bouquet. **This action should not delete the flower itself!** -->
-
-<!-- ### Editing a Bouquet
-1. Add an EDIT button at the bottom of the bouquet details page. When the user clicks on the button, they should be presented with a form that lets them edit only the occasion of the bouquet.  -->

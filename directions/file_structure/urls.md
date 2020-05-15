@@ -22,4 +22,4 @@
 - Path: "bouquet/<int:bouquet_id>/form"
 <!-- - Shows:  -->
 - View: [edit_bouquets]()
-- Name: bouquet_add
+- Name: bouquet_edit

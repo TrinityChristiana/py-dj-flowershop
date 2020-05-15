@@ -12,6 +12,7 @@
     - This view handels all request to the bouquets details page
     - url_ex: bouquet/1
     - GET: Gets and grabs details of each flower
+    - POST: handles post method for edit_bouquet. Redirects to bouquet details
 
 ## Bouquets Form
 - Function: [add_bouquets(request)]()
@@ -22,4 +23,4 @@
 - Function: [edit_bouquets(request, bouquet_id)]()
     - This view handles all request to the edit bouquet page
     - url_ex: bouquet/1/form
-    - GET:
+    - GET: Shows form to edit bouquet
