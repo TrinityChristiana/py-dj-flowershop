@@ -3,6 +3,13 @@ from bouquetapp.views.connection import Connection
 from bouquetapp.models import model_factory, Bouquet
 
 def get_bouquet(bouquet_id):
+    """
+    Grabs the bouquet in the database that matches the passes bouquet id
+
+    Uses the Bouquet model to represent data
+    
+    => Single Bouquet classes
+    """
     with sqlite3.connect(Connection.db_path) as conn:
         conn.row_factory = model_factory(Bouquet)
 

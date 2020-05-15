@@ -1,5 +1,15 @@
 {% extends 'shared/base.html' %}
 
 {% block content %}
-details for {{ bouquet.id }}
+
+<h1>{{ bouquet.name }}</h1>
+
+<p>Occasion: {{ bouquet.occasion }}</p>
+
+<h2>Flowers</h2>
+<ul>
+    {% for flower in flowers %}
+        <li>{{flower.name}}</li>
+    {% endfor %}
+</ul>
 {% endblock content %}
