@@ -12,6 +12,6 @@
     - Uses the BouquetFlower model to represent data
     - => List BouquetFlower classes
 
-## Remove Flower
+## Remove Relationship
 - Function: []()
     -

@@ -11,7 +11,7 @@
 - Template: [bouquets_details]()
 - Template for Bouquets Details page
 - Takes in single Bouquet Model and list of BouquetFlower Models
-- Displays Bouquet Name, Occasion, List of flowers, their name and quantity in the Bouquet, and a button to edit Bouquet
+- Displays Bouquet Name, Occasion, List of flowers, their name and quantity in the Bouquet, delete button to remove flower from a bouquet, and a button to edit Bouquet
 
 ## Bouquets Form
 - Template: [bouquets_form]() 
