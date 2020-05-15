@@ -3,7 +3,7 @@
 ## Add Bouquet
 - Function: [add_bouquet(form_data)]()
     - Takes in form data
-    - Runs INSERT sql query to add new boquet to database,
+    - Runs INSERT sql query to add new bouquet to database,
     - needs form_data["name"], form_data["occasion"]
     - => id of created bouquet
     
