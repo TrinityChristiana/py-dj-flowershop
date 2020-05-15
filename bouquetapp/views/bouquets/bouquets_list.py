@@ -1,5 +1,5 @@
-from django.shortcuts import render
-from ..data_manager import get_all_bouquets
+from django.shortcuts import render, reverse, redirect
+from ..data_manager import *
 
 def list_bouquets(request):
     """
@@ -13,3 +13,10 @@ def list_bouquets(request):
             "bouquets": bouquets
         }
         return render(request, template, context)
+    elif request.method == "POST":
+        form_data = request.POST
+        add_bouquet(form_data)
+        return redirect(reverse("bouquetapp:bouquets"))
+
+
+

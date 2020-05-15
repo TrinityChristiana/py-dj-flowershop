@@ -1,8 +1,11 @@
 # Bouquets Manager
 
 ## Add Bouquet
-- Function: []()
-    - 
+- Function: [add_bouquet(form_data)]()
+    - Takes in form data
+    - Runs INSERT sql query to add new boquet to database,
+    - needs form_data["name"], form_data["occasion"]
+    - => id of created bouquet
     
 ## Get all Bouquets
 - Function: [get_all_bouquets()]()

@@ -2,4 +2,27 @@
 
 {% block content %}
     form for {{ bouquet.id }}
+
+    {% if bouquet.id %}
+    <form action="{% url 'bouquetapp:bouquet' bouquet.id%}" method="POST">
+    {% else %}
+    <form action="{% url 'bouquetapp:bouquets'%}" method="POST">
+    {% endif %}
+    {% csrf_token %}
+    <fieldset>
+        <label>Name</label>
+        <input type="text" name="name"/>
+    </fieldset>
+    <fieldset>
+        <label>Occasion</label>
+        <input type="text" name="occasion"/>
+    </fieldset>
+
+    {% if bouquet.id %}
+        <input type="hidden" name="actual_method" value="PUT">
+        <input type="submit" value="Edit Bouquet"/>
+    {% else %}
+        <input type="submit" value="Add Bouquet"/>
+    {% endif %}
+    </form>
 {% endblock content %}

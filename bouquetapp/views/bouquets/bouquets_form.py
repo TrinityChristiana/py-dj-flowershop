@@ -9,6 +9,7 @@ def add_bouquets(request):
         template = "bouquets/bouquets_form.html"
         context = {}
         return render(request, template, context)
+    
 
 def edit_bouquets(request, bouquet_id):
     """
