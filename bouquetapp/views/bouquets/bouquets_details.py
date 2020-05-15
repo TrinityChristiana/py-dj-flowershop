@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse
 from ..data_manager import *
 def details_bouquets(request, bouquet_id):
     """
@@ -14,3 +14,8 @@ def details_bouquets(request, bouquet_id):
             "bouquet_flowers": bouquet_flowers
         }
         return render(request, template, context)
+    elif request.method == "POST":
+        form_data = request.POST
+
+        return redirect("bouquetapp:bouquet", bouquet_id=bouquet_id)
+
