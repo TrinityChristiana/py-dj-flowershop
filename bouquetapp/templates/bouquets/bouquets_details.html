@@ -10,7 +10,11 @@
 <ul>
     {% for bouquet_flower in bouquet_flowers %}
         <li> <strong>{{bouquet_flower.flower.name}}</strong> Quantity: {{bouquet_flower.quantity}}
-         
+         <form action="{% url 'bouquetapp:bouquetflower' bouquet.id bouquet_flower.id %}" method="POST">
+         {% csrf_token %}
+            <input type="hidden" name="actual_method" value="DELETE"/>
+            <input type="submit" value="Remove"/>
+         </form>
         </li>
     {% endfor %}
 </ul>

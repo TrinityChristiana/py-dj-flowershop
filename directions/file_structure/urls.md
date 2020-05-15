@@ -23,3 +23,5 @@
 <!-- - Shows:  -->
 - View: [edit_bouquets]()
 - Name: bouquet_edit
+
+    <!-- path("bouquetflower/<int:bouquet_id>/<int:bouquets_flower_id>", details_bouquets_flower, name="bouquetflower"), -->
