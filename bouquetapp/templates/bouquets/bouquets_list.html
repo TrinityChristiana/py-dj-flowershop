@@ -2,6 +2,7 @@
 
 {% block content %}
     <h1>Bouquets</h1>
+    <a href={% url 'bouquetapp:bouquet_form' %}>Add Bouquet</a>
     <ul>
         {% for bouquet in bouquets %}
         <li>{{bouquet.name}}</li>
