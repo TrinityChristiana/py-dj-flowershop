@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from ..data_manager import *
 def details_bouquets(request, bouquet_id):
     """
     This view handels all request to the bouquets details page
@@ -7,5 +7,8 @@ def details_bouquets(request, bouquet_id):
     """
     if request.method == "GET":
         template = "bouquets/bouquets_details.html"
-        context = {}
+        bouquet = get_bouquet(bouquet_id)
+        context = {
+            "bouquet": bouquet
+        }
         return render(request, template, context)
