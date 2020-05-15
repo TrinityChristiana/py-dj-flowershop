@@ -1,27 +1,31 @@
-# URL Paths
+# URL Paths Documentation
 
 ## Home Page 
 - Path: "/"
 - Shows: List of Bouquets
-- View: [list_bouquets]()
+- View: [list_bouquets](../../bouquetapp/views/bouquets/bouquets_list.py#L4)
 - Name: bouquets
 
 ## Bouquets Details
-- Path: "bouquet/<int:bouquet_id>"
-<!-- - Shows:  -->
-- View: [details_bouquets]()
+- Path: "bouquet/\<int:bouquet_id>"
+- Shows: Name, Occasion, Flowers, Edit Button, Remove Flowers Button.
+- View: [details_bouquets](../../bouquetapp/views/bouquets/bouquets_details.py#L4)
 - Name: bouquet
 
 ## Add Bouquets
 - Path: "bouquet/form"
-<!-- - Shows:  -->
-- View: [add_bouquets]()
+- Shows: Form with name and occasion inputs
+- View: [add_bouquets](../../bouquetapp/views/bouquets/bouquets_form.py#L4)
 - Name: bouquet_form
 
 ## Edit Bouquets 
-- Path: "bouquet/<int:bouquet_id>/form"
-<!-- - Shows:  -->
-- View: [edit_bouquets]()
+- Path: "bouquet/\<int:bouquet_id>/form"
+- Shows: Form with occasion input
+- View: [edit_bouquets](../../bouquetapp/views/bouquets/bouquets_form.py#L15)
 - Name: bouquet_edit
 
-    <!-- path("bouquetflower/<int:bouquet_id>/<int:bouquets_flower_id>", details_bouquets_flower, name="bouquetflower"), -->
+## Delete Flower from Bouquet
+- Path: "bouquetflower/\<int:bouquet_id>/\<int:bouquets_flower_id>"
+- Shows: Form with occasion input
+- View: [details_bouquets_flower](../../bouquetapp/views/bouquet_flower/bouquets_flower_details.py#L4)
+- Name: bouquetflower
