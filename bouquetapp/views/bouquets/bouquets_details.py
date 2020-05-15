@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse
 from ..data_manager import *
+
 def details_bouquets(request, bouquet_id):
     """
     This view handels all request to the bouquets details page
@@ -17,5 +18,7 @@ def details_bouquets(request, bouquet_id):
     elif request.method == "POST":
         form_data = request.POST
 
-        return redirect("bouquetapp:bouquet", bouquet_id=bouquet_id)
+        if "actual_method" in form_data and form_data["actual_method"] == "PUT":
+
+            return redirect("bouquetapp:bouquet", bouquet_id=bouquet_id)
 
