@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>My test page</title>
+
+        {% block css %}
+        {% endblock %}
+    </head>
+    <body>
+
+        <main class="main-content">
+        {% block content %}
+
+        {% endblock %}
+        </main>
+
+        {% block scripts %}
+        
+        {% endblock scripts %}
+    </body>
+
+</html>
