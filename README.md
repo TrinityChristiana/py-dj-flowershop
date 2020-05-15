@@ -14,8 +14,8 @@ Created: 05-15-20 | Modified:
 ### Adding a Bouquet
 1. Above the list of bouquets, there's a link to "Add a Bouquet" that presents a form to add a new bouquet by providing the name and occasion. When the form is submitted, the user is directed to `/` and can now see the newly added bouquet in the list.
 
-<!-- ### Viewing Bouquet Details
-1. Add a link to view the details of each bouquet for every item on the list of bouquets. When the user clicks on this link, they should see the name of the bouquet, the occasion, the names of the many flowers that make up that bouquet and the quantity of each flower needed for that bouquet. -->
+### Viewing Bouquet Details
+1.Each bouquet on the lsit page has a link to view the details of the bouquet. When the user clicks on this link, they can view the name of the bouquet, the occasion, the names of the many flowers that make up that bouquet and the quantity of each flower needed for that bouquet.
 
 <!-- ### Deleting a Flower from a Bouquet
 1. Add a DELETE button next to each flower listed on the details page for a bouquet. When the user clicks this button, the flower should be removed from that bouquet. **This action should not delete the flower itself!** -->
