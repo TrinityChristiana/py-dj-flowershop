@@ -1,4 +1,4 @@
-# Bouquets Manager
+# Bouquets Views
 
 ## Add Bouquet
 - Function: [add_bouquet(form_data)]()
