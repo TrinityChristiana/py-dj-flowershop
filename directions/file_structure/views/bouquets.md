@@ -1,4 +1,4 @@
-# Bouquetapp Views
+# Bouquetapp Views Documentation
 
 ## Bouquets List
 - Function: [list_bouquets(request)](../../../bouquetapp/views/bouquets/bouquets_list.py#L4)

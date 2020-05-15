@@ -1,4 +1,4 @@
-# URL Paths
+# URL Paths Documentation
 
 ## Home Page 
 - Path: "/"

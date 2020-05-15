@@ -1,4 +1,4 @@
-# BouquetFlowers Manager
+# BouquetFlowers Date Manager Documentation
 
 ## Get Related Relationships
 - Function: [get_relations(bouquet_id)](../../../../bouquetapp/views/data_manager/bouquetflowers/get_relations.py)

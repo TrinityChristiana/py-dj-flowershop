@@ -1,4 +1,4 @@
-# Bouquets Views
+# Bouquets Data Managers Documentation
 
 ## Add Bouquet
 - Function: [add_bouquet(form_data)](../../../../bouquetapp/views/data_manager/bouquets/add_bouquet.py)

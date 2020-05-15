@@ -1,4 +1,4 @@
-# File Structure
+# File Structure Contents
 
 - ## [URL's](./urls.md)
 - ## [Models](./models.md)

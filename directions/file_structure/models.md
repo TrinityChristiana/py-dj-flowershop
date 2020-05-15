@@ -1,4 +1,4 @@
-# Models
+# Models Documentation
 
 ## Bouquet_Flower **Intermediary Table**
 - Model: [BouquetFlower](../../bouquetapp/models/bouquet_flower.py)

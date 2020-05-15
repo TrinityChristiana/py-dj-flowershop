@@ -1,4 +1,4 @@
-# Shared Templates
+# Shared Templates Documentation
 
 ## Base Template
 - Template: [Base.html](../../../bouquetapp/templates/shared/base.html)

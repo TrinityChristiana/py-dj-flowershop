@@ -1,4 +1,4 @@
-# Bouquet Templates
+# Bouquet Templates Documentation
 
 ## List Of Bouquets
 - Template: [bouquets_list](../../../bouquetapp/templates/bouquets/bouquets_list.html)

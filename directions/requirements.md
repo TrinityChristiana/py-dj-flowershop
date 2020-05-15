@@ -1,4 +1,4 @@
-## Requirements
+## Requirements 
 
 You need to meet the following requirements in the order they are listed since they build on each other. After each requirement has been met, please make sure you make a commit with a detailed commit message explaining what feature has been completed. You **do not** need to worry about authentication for this application.
 
