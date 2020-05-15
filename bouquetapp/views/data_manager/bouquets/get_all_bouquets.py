@@ -12,6 +12,7 @@ def get_all_bouquets():
         SELECT
             *
         FROM bouquetapp_bouquet
+        ORDER BY name ASC
         """)
-        
+
     return db_cursor.fetchall()
